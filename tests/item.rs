@@ -22,8 +22,10 @@ fn item_should_have_is_done_false_when_created() {
 
 #[test]
 fn item_should_have_is_visible_true_when_created() {
-    let _expected = true;
+    let expected = true;
 
     let item = Item::default();
-    let _actual = item.is_visible;
+    let actual = item.is_visible;
+
+    assert_eq!(expected, actual);
 }
