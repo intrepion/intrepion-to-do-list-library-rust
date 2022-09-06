@@ -2,8 +2,10 @@ use intrepion_to_do_list_library_rust::item::Item;
 
 #[test]
 fn item_should_have_title_when_created() {
-    let _expected = "Untitled";
+    let expected = "Untitled";
 
     let item = Item::default();
-    let _actual = item.title;
+    let actual = item.title;
+
+    assert_eq!(expected, actual);
 }
