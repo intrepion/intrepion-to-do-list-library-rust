@@ -8,7 +8,7 @@ impl Default for Item {
     fn default() -> Self {
         Self {
             is_done: false,
-            is_visible: false,
+            is_visible: true,
             title: "Untitled".to_string(),
         }
     }
