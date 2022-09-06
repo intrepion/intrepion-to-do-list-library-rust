@@ -12,8 +12,8 @@ fn item_should_have_title_when_created() {
 
 #[test]
 fn item_should_have_is_done_false_when_created() {
-    let expected = false;
+    let _expected = false;
 
     let item = Item::default();
-    let actual = item.is_done;
+    let _actual = item.is_done;
 }
